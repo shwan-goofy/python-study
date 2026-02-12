@@ -57,7 +57,7 @@ class Employee:
         # Public: 공개 정보
         self.name = name
         self.department = department
-        
+
         # Protected: 내부 정보 (외부에서 접근 자제)
         self._salary = salary
         
@@ -127,12 +127,13 @@ class Parent:
         """부모 클래스를 초기화한다"""
         self.public = "부모의 Public"
         self._protected = "부모의 Protected"
-        self.__private = "부모의 Private"
+        self.__private = "부모의 private"
+
     
     def get_private(self) -> str:
         """
         Private 변수를 반환한다
-        
+
         Returns:
             Private 변수
         """

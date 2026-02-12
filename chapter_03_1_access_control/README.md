@@ -129,7 +129,3 @@ example.py에서는 다음을 학습한다:
 - 과도한 Private 사용은 테스트와 디버깅을 어렵게 만든다
 - 대부분의 경우 Protected(`_`)로 충분하다
 
-## 다음 챕터
-
-[Chapter 3-2: Getter와 Setter, @property](../chapter_03_2_property/)에서는 파이썬스러운 속성 접근 방법을 배운다.
-

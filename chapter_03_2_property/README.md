@@ -69,8 +69,3 @@ def age(self):
     return self._age
 # Setter 없음 -> 읽기 전용
 ```
-
-## 다음 챕터
-
-[Chapter 4-1: 상속 (Inheritance)](../chapter_04_1_inheritance/)에서는 Is-a 관계를 배운다.
-
